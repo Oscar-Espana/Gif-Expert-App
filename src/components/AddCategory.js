@@ -21,7 +21,7 @@ const AddCategory = ({setCategories}) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" value={inputValue} onChange={handleInputChange} />
+      <input placeholder='Find images gif' type="text" value={inputValue} onChange={handleInputChange} />
     </form>
   );
 };
